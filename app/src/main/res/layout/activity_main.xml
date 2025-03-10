@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ConstraintLayout으로 변경 & 속성 추가 -->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D3D3"
+    tools:context=".MainActivity">
+
+
+<TextView
+android:id="@+id/titleText"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="GUI Practice"
+android:textSize="28sp"
+android:textStyle="bold"
+android:textColor="@android:color/black"
+app:layout_constraintTop_toTopOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+android:layout_marginTop="20dp"/>
+
+
+<CalendarView
+android:id="@+id/calendarView2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background="#B2EBF2"
+    app:layout_constraintTop_toBottomOf="@id/titleText"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp"/>
+
+
+<TextView
+android:id="@+id/textStudent"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="202155654_임준식"
+android:textSize="24sp"
+android:textStyle="bold"
+android:textColor="@android:color/black"
+app:layout_constraintTop_toBottomOf="@+id/calendarView2"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+android:layout_marginTop="24dp"/>
+
+
+<Button
+android:id="@+id/btn_left"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="LEFT"
+android:textColor="@android:color/white"
+android:backgroundTint="#6A5ACD"
+    app:layout_constraintTop_toBottomOf="@id/textStudent"
+    app:layout_constraintStart_toStartOf="parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="20dp"/>
+
+
+    <Button
+        android:id="@+id/btn_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#8A2BE2"
+        android:text="CENTER"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintEnd_toStartOf="@id/btn_right"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toEndOf="@id/btn_left"
+        app:layout_constraintTop_toBottomOf="@id/textStudent" />
+
+    <Button
+android:id="@+id/btn_right"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="RIGHT"
+android:textColor="@android:color/white"
+android:backgroundTint="#FF0000"
+    app:layout_constraintTop_toBottomOf="@id/textStudent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginEnd="20dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
