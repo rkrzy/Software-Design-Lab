@@ -8,6 +8,11 @@ android {
     namespace = "com.example.softwaredesign"
     compileSdk = 35
 
+    buildFeatures{
+        viewBinding = true
+        dataBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.softwaredesign"
         minSdk = 24
@@ -58,6 +63,19 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+
+    //week4
+    implementation ("androidx.appcompat:appcompat:1.6.1")
+    implementation ("androidx.fragment:fragment-ktx:1.6.1")
+    implementation ("androidx.recyclerview:recyclerview:1.3.1")
+    implementation ("androidx.viewpager2:viewpager2:1.0.0")
+    implementation ("androidx.drawerlayout:drawerlayout:1.2.0")
+    implementation ("androidx.constraintlayout:constraintlayout:2.1.4")
+
+
+
+
+
 
 
 }

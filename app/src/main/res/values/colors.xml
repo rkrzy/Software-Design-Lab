@@ -7,4 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="my_purple">#6200EE</color> <!-- 원하면 다른 보라색 코드도 가능 -->
+    <color name="my_purple_dark">#3700B3</color>
 </resources>

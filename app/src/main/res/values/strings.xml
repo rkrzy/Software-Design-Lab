@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SoftWare Design</string>
+    <string name="drawer_opened">Drawer Opened</string>
+    <string name="drawer_closed">Drawer Closed</string>
 </resources>
