@@ -13,7 +13,7 @@
         android:theme="@style/Theme.SoftWareDesign"
         tools:targetApi="31">
         <activity
-            android:name=".week4.practice5.MainActivity"
+            android:name=".week5.practice3.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.SoftWareDesign">
@@ -23,6 +23,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".week5.practice1.SubActivity"></activity>
+<!--            <activity android:name=".week5.practice2.SubActivity"></activity>-->
+        <activity android:name=".week5.practice3.SubActivity"></activity>
+        <activity android:name=".week5.practice3.ResultActivity"></activity>
+
+
+
     </application>
 
 </manifest>

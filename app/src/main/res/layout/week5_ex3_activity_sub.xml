@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imagePreview"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"/>
+
+        <TextView android:id="@+id/textName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="이름" />
+
+        <TextView android:id="@+id/textAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="나이" />
+
+        <TextView android:id="@+id/textPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="연락처" />
+
+        <TextView android:id="@+id/textAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="주소" />
+
+        <TextView android:id="@+id/textExtra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="기타" />
+
+        <Button android:id="@+id/buttonComplete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="완료" />
+
+        <Button android:id="@+id/buttonEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="수정" />
+
+    </LinearLayout>
+</ScrollView>

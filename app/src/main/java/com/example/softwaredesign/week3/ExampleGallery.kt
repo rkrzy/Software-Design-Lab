@@ -4,7 +4,6 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
 import androidx.activity.ComponentActivity
-import androidx.appcompat.app.AppCompatActivity
 import com.example.softwaredesign.R
 
 class GalleryActivity : ComponentActivity() {
@@ -14,7 +13,7 @@ class GalleryActivity : ComponentActivity() {
     private lateinit var btnRight: Button
 
     private val images = arrayOf(
-        R.drawable.a, R.drawable.b, R.drawable.c, R.drawable.d,
+        R.drawable.placeholder, R.drawable.b, R.drawable.c, R.drawable.d,
         R.drawable.e, R.drawable.f, R.drawable.g, R.drawable.h,
         R.drawable.i, R.drawable.j, R.drawable.k, R.drawable.l,
         R.drawable.m, R.drawable.n, R.drawable.o, R.drawable.p,
