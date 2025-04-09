@@ -5,6 +5,7 @@ plugins {
 }
 
 android {
+    //6주차 실습을 위해서 추가함
     namespace = "com.example.softwaredesign"
     compileSdk = 35
 
@@ -72,6 +73,12 @@ dependencies {
     implementation ("androidx.drawerlayout:drawerlayout:1.2.0")
     implementation ("androidx.constraintlayout:constraintlayout:2.1.4")
 
+    //week6
+    implementation ("com.android.volley:volley:1.2.1")
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.google.code.gson:gson:2.8.6")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation ("com.github.bumptech.glide:glide:4.11.0")
 
 
 
