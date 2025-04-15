@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "535585521282",
+    "project_id": "software-design-7week",
+    "storage_bucket": "software-design-7week.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535585521282:android:b7b0d8091a7105c0457e9b",
+        "android_client_info": {
+          "package_name": "com.example.softwaredesign"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkI2FVdL5UZ5fac7FRrBTeVH-YMmjz7lM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
