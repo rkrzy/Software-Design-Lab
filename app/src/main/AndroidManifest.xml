@@ -22,16 +22,11 @@
         tools:targetApi="31">
 
         <!-- ✅ Google Maps API 설정 -->
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-             />
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
+
 
         <!-- ✅ MainActivity 등록 -->
         <activity
-            android:name=".week7.practice4.MainActivity"
+            android:name=".week9.practice2.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.SoftWareDesign">
@@ -40,12 +35,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity android:name=".week9.practice2.ReservedActivity"/>
         <!-- 이전 실습 주석 유지 -->
-        <!-- <activity android:name=".week5.practice1.SubActivity" /> -->
-        <!-- <activity android:name=".week5.practice2.SubActivity" /> -->
-        <!-- <activity android:name=".week5.practice3.SubActivity" /> -->
-        <!-- <activity android:name=".week5.practice3.ResultActivity" /> -->
+<!--         <activity android:name=".week5.practice1.SubActivity" />-->
+<!--         <activity android:name=".week5.practice2.SubActivity" />-->
+<!--         <activity android:name=".week5.practice3.SubActivity" />-->
+<!--         <activity android:name=".week5.practice3.ResultActivity" />-->
 
     </application>
 </manifest>

@@ -4,6 +4,8 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     //7주차
     id("com.google.gms.google-services")
+    //9주차
+//    id("kotlin-android-extensions")
 
 }
 
